@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Esercizio 1 */
+div.jumbotron div h1{
+    background-color: red;
+}
+
+/* Esercizio 2 */
+
+nav span{
+    color: blueviolet;
+}
+
+/* Esercizio 3 */
+
+div.jumbotron a[class^="font"]{
+    color: chocolate;
+}
+
+/* Esercizio 4 */
+
+div[class$="blog-main"] div:first-of-type{
+    color: rgb(40, 53, 197); 
+}
+
+/* Esercizio 5 */
+div[class$="blog-main"] div:first-of-type hr{
+    border-color: red;
+}
+
+
+/* Esercizio6 */
+
+nav span:nth-child(even){
+    color: red;
+}
+
+/* Esercizio 7 */
+ol[class*="mb-0"] li{
+  background-color: rgb(183, 137, 50);
+}
+
+/* Esercizio 8 */
+
+div[class$="blog-main"] div:first-of-type + div p[class^="blog"] a{
+    color: rgb(202, 34, 205);
+}
+
+/* Esercizio 9 */
+
+div[class$="blog-main"] div:first-of-type + div + div ul li:nth-child(2){
+    font-weight: bold;
+}
+
+/* Esercizo 10 */
+
+a[class*="float-right"]{
+    background-color: black;
+}
+
+/* Esercizio 11 */
+
+nav[class^=blog] a:last-of-type{
+    color: red!important;;
+}
+
+/* Esercizio 12 */
+
+footer p a:last-of-type{
+    color: rgb(32, 189, 15);
+}
